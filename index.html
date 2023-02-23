@@ -78,7 +78,7 @@
   }
 
   img {
-    border: 10px solid #150a79;
+    border: 10px solid #e8c0ab;
   }
 
   section {
@@ -99,6 +99,17 @@
     width: 50%;
   }
 
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f7d7d5;
+    color: #f66928;
+    ;
+    text-align: center;
+  }
+
   table,
   th,
   td {
@@ -115,52 +126,56 @@
   <h1>HTML Cheat Sheet</h1>
   <h4>by Fernanda Osorio(A01026502)</h4>
 
-
-  <h2 class="orangeBack">a - Hiperlinks</h2>
-  <p></p> Sirven para hacer un link de una página a otro recurso en la web, sea otro archivo en el servidor web, u otra
-  página web.</p>
-  <p>Por ejemplo <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> El siguiente link muestra un video de cómo
-      funcionan los hyperlinks!</a> </p>
-  <p>Por ejemplo <a href="https://htmlcheatsheet.com/" target="_blank"> HTML cheat sheet online</a> </p>
-  <hr class="dashed">
-
-  <h2 class="redBack">p- Paragraphs</h2>
-  <p>Los <strong>headers</strong> van seguidos de parrafos más pequeños que se hacen usando <em style="color: #e7692e;">
-      el tag p</p></em></p>
-  <hr class="rounded">
-
-
-  <h2 class="pinkBack">h- Headers (h1, h2, h3, h4, h5, h6)</h2>
-  <p>Existen diferentes tipos de <strong>heading elements</strong> que se pueden usar para representar diferentes
-    titulos y subtitlos</p>
-  <p>El <b style="color: #d42fbe;">header</b> marca el inicio de una página, sección o artículo.</p>
-  <header> Aqui hay un <b style="color: #d42fbe;">HEADER </b>(ej)</header>
-  <br />
-  <h3>This is a header 3, adding colors</h3>
-  <p style="color:orchid;font-size: 18px;">Para agregrar color hay que usar : <i>style="color:elcolor;"</i>, con eso se
-    cambia el color</p>
-  <h4>This is a header 4</h4>
-  <h5>This is a header 5</h5>
-  <h6>This is a header 6</h6>
-
-  <!-- esto hace line break -->
-  <hr class="dotted">
-  <h2 class="blueBack">div - Divisions</h2>
-  <div> Aqui hay un <strong style="color:#3c6ce6;"">div </strong></div>
-    <div> div no tiene un valor semántico pero se usa para lejivilidad de la página</div>
-    
-    <!-- agregrar comentarios  --> 
-    <!-- Spans -->
+  <!-- Division for start -->
   <div>
-    <hr class=" solid">
+    <h2 class="orangeBack">a - Hiperlinks</h2>
+    <p></p> Sirven para hacer un link de una página a otro recurso en la web, sea otro archivo en el servidor web, u
+    otra
+    página web.</p>
+    <p>Por ejemplo <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> El siguiente link muestra un video de cómo
+        funcionan los hyperlinks!</a> </p>
+    <p>Por ejemplo <a href="https://htmlcheatsheet.com/" target="_blank"> HTML cheat sheet online</a> </p>
+    <hr class="dashed">
 
+    <h2 class="redBack">p- Paragraphs</h2>
+    <p>Los <strong>headers</strong> van seguidos de parrafos más pequeños que se hacen usando <em
+        style="color: #e7692e;">
+        el tag p</p></em></p>
+    <hr class="rounded">
+
+    <h2 class="pinkBack">h- Headers (h1, h2, h3, h4, h5, h6)</h2>
+    <p>Existen diferentes tipos de <strong>heading elements</strong> que se pueden usar para representar diferentes
+      titulos y subtitlos</p>
+    <p>El <b style="color: #d42fbe;">header</b> marca el inicio de una página, sección o artículo.</p>
+    <header> Aqui hay un <b style="color: #d42fbe;">HEADER </b>(ej)</header>
+    <br />
+    <h3>This is a header 3, adding colors</h3>
+    <p style="color:orchid;font-size: 18px;">Para agregrar color hay que usar : <i>style="color:elcolor;"</i>, con eso
+      se
+      cambia el color</p>
+    <h4>This is a header 4</h4>
+    <h5>This is a header 5</h5>
+    <h6>This is a header 6</h6>
+
+    <hr class="dotted">
+    <h2 class="blueBack">div - Divisions</h2>
+    Aqui hay un <strong style="color:#3c6ce6;"">div </strong>
+    <p>div no tiene un valor semántico pero se usa para lejibilidad de la página</p>
+      
+      
+      <!-- agregrar comentarios  --> 
+      <!-- Spans -->
+    <hr class=" solid">
       <h2 class="purpleBack">span - Spans </h2>
       <p>Spans son elementos de HTML que actuan como contenedores que sirven para propositos de estilo</p>
       <span> Aqui hay un <strong style="color:#872fd4;">span</strong></span>
       <br />
-
   </div>
+
+  <!-- esto hace line break -->
+
   <!-- Section -->
+  <!-- sections letters -->
   <section>
     <hr class="rounded">
     <h2 class="pinkBack">Section</h2>
@@ -169,55 +184,50 @@
     <p>No siempre lleva un header, sirve para identificar toda la información relacionada, darle jerarquía a una
       página y separarla.</p>
     <p>Aquí hay una ejemplo de <b style="color: #d42fbe;"">Section</b> </p>
-            <br /> Puede llevar varios breaks que siguen dentro.
-            
+          <br /> Puede llevar varios breaks que siguen dentro.
+          
+    <hr class=" dashed">
+        <h2 class="redBack"> strong/ b - Bold </h2>
+        <p>El tag <strong style="color:#ff6347;">strong</strong> vuelve el texto en bold lo que le da cierta
+          importancia
+          dentro del texto. Cambia el grosor de la letra sin alterar la palabra</p>
+        <br /> <strong style="color:#ff6347;">Bold text usando strong</strong>
+        <br /> <b style="color:#ff6347;">bold usando b</b>
+        <hr class="rounded">
+
+
+        <h2 class="pinkBack">i / em - Italics</h2>
+        <p>Los tags <strong style="color:#d42fbe"> i / em </strong> hacen que las letras se generen de forma itálica.
+          Esto
+          pone enfasis en las palabras o les da una entonación diferente
+          <em style="color:#d42fbe "> Italic text</em>
+        </p>
+        <br />
+
+        <hr class="solid">
+        <h2 class="purpleBack">Strike</h2>
+        <p>El tag <i style="color: #872fd4;">strike</i> sirve para "tachar" una palabra y darle un sentido de estar
+          incorrecta, borrada, o escondida.</p>
+        <strike style="color: #872fd4;">Esto es un ejemplo de strike</strike>
+        <br />
+
+
+        <hr class="dotted">
+        <h2 class="blueBack">u - Underline</h2>
+        <p>El tag <u style="color:#3c6ce6">u</u> genera un subrayado debajo de las palabras lo que le da enfasis</p>
+        <u style="color: #3c6ce6;">Esto es subrayar con u </u>
+        <br />
+
+
+        <hr class="dashed">
+        <h2 class="redBack">Small</h2>
+        <p>El tag <i style="color: #f87e46;">small</i> hace que la letra pase de su tamaño regular a un tamaño unos
+          puntos
+          mas pequeños. Esto sirve para hacer pequeñas incisiones en oraciones o "adornar" palabras.</p>
+        <small style="color: #f87e46;">Esto es un ejemplo de letra con tag small</small>
+        <br />
+
   </section>
-
-  <!-- sections letters -->
-  <section>
-    <hr class="dashed">
-    <h2 class="redBack"> strong/ b - Bold </h2>
-    <p>El tag <strong style="color:#ff6347;">strong</strong> vuelve el texto en bold lo que le da cierta importancia
-      dentro del texto. Cambia el grosor de la letra sin alterar la palabra</p>
-    <br /> <strong style="color:#ff6347;">Bold text usando strong</strong>
-    <br /> <b style="color:#ff6347;">bold usando b</b>
-    <hr class="rounded">
-
-
-    <h2 class="pinkBack">i / em - Italics</h2>
-    <p>Los tags <strong style="color:#d42fbe"> i / em </strong> hacen que las letras se generen de forma itálica. Esto
-      pone enfasis en las palabras o les da una entonación diferente
-      <em style="color:#d42fbe "> Italic text</em>
-    </p>
-    <br />
-
-    <hr class="solid">
-    <h2 class="purpleBack">Strike</h2>
-    <p>El tag <i style="color: #872fd4;">strike</i> sirve para "tachar" una palabra y darle un sentido de estar
-      incorrecta, borrada, o escondida.</p>
-    <strike style="color: #872fd4;">Esto es un ejemplo de strike</strike>
-    <br />
-
-
-    <hr class="dotted">
-    <h2 class="blueBack">u - Underline</h2>
-    <p>El tag <u style="color:#3c6ce6">u</u> genera un subrayado debajo de las palabras lo que le da enfasis</p>
-    <u style="color: #3c6ce6;">Esto es subrayar con u </u>
-    <br />
-
-
-    <hr class="dashed">
-    <h2 class="redBack">Small</h2>
-    <p>El tag <i style="color: #f87e46;">small</i> hace que la letra pase de su tamaño regular a un tamaño unos puntos
-      mas pequeños. Esto sirve para hacer pequeñas incisiones en oraciones o "adornar" palabras.</p>
-    <small style="color: #f87e46;">Esto es un ejemplo de letra con tag small</small>
-    <br />
-
-  </section>
-
-
-
-
 
 
   <!-- Article -->
@@ -244,8 +254,6 @@
 
   </aside>
 
-
-
   <!-- Navigation -->
   <nav>
     <br />
@@ -254,6 +262,7 @@
     <p>Aquí hay un ejemplo de <b style="color: #d42fbe;">nav</b>, este elemento
       se usa para identificar secciones con links de navegación a lo largo de la página o a otras páginas.
     </p>
+    <img src="https://i.ytimg.com/vi/mu-sc9OO2Pw/maxresdefault.jpg" alt="pink nav bar" width="300" height="250">
     <br />
 
   </nav>
@@ -381,7 +390,6 @@
       Marca el final del contenido, por lo que debe contener información no relevante y no debe divergir
       del documento o sección en el que se encuentra.
       Este es un ejemplo de <b style="color: #e7692e;">footer</b>.
-      Aunque no se encuentra en su posición al final de la página
     </p>
     <br />
 
@@ -391,3 +399,13 @@
 </body>
 
 </html>
+
+<!-- Referencias -->
+<!-- w3schools.(2023)HOW TO.https://www.w3schools.com/howto/default.asp -->
+<!-- Howe,S.(2023)Getting to Know HTML. https://learn.shayhowe.com/html-css/getting-to-know-html/-->
+<!-- Howe,S.(2023)Positioning Content. https://learn.shayhowe.com/html-css/positioning-content/  -->
+<!-- Howe,S.(2023)Building Your First Web Page. https://learn.shayhowe.com/html-css/building-your-first-web-page/  -->
+<!-- w3schools.(2023)HTML Tutorial.https://www.w3schools.com/html/default.asp-->
+<!-- w3schools.(2023)HTML Element Reference.https://www.w3schools.com/tags/default.asp-->
+
+
